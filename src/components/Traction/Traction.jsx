@@ -1,3 +1,7 @@
+import amazon from "../../assets/TractionImages/amazon.jpg"
+import instagram from "../../assets/TractionImages/instagram.jpg"
+import rightArrow from "../../assets/TractionImages/RightArrow.jpg"
+import women from "../../assets/TractionImages/Women.jpg"
 export default function Traction() {
     const pinkText = { color: "#f64697" }
 
@@ -23,19 +27,19 @@ export default function Traction() {
                     </div>
                     <div className="flex items-center gap-10">
                         <div className="flex items-center" >
-                            <img className="h-16" src="src/assets/TractionImages/amazon.jpg" />
+                            <img className="h-16" src={amazon} />
                             <div className="font-bold" > 5800 Followers </div>
                         </div>
                         <div className="flex gap-2 items-center">
-                            <img className="h-10" src="src/assets/TractionImages/instagram.jpg" />
+                            <img className="h-10" src={instagram} />
                             <div className="font-bold">1000+ Reviews & Ratings</div>
                         </div>
                     </div>
                 </div>
-                <img className="h-5" src="src/assets/TractionImages/RightArrow.jpg" />
+                <img className="h-5" src={rightArrow} />
             </div>
             <div>
-                <img src="src/assets/TractionImages/Women.jpg" />
+                <img src={women} />
             </div>
         </div>
     )

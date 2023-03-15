@@ -1,3 +1,5 @@
+import GraphAndHeart from "../../assets/MissionImages/GraphAndHeart.png"
+
 export default function Mission() {
     const pinkBackground = { backgroundColor: "#f64697" }
     return (<section className="mt-5">
@@ -45,7 +47,7 @@ export default function Mission() {
                     the web building our CosIQ Club
                 </p>
             </div>
-            <img src="src/assets/MissionImages/GraphAndHeart.png" />
+            <img src={GraphAndHeart} />
             <div className="flex flex-col gap-5 text-xl justify-center  w-[300px] text-white">
                 <p className="text-2xl">Building for the Future</p>
                 <p>

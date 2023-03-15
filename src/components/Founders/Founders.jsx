@@ -1,3 +1,9 @@
+import angadTalwar from "../../assets/FounderImages/Angad_Talwar.jpg"
+import Kanika from "../../assets/FounderImages/Kanika_Talwar.jpg"
+import Anupam from "../../assets/FounderImages/Anupam_Mittal.jpg"
+import Vineeta from "../../assets/FounderImages/Vineeta Singh.jpg"
+import Deepak from "../../assets/FounderImages/Deepak_Jain.jpg"
+
 function Bio({ name, professions, website, img }) {
     return (<section className="flex items-center gap-2">
         <img src={img} className="h-36" />
@@ -16,11 +22,11 @@ export default function Founders() {
     return (<section className="pt-20">
         <div style={pinkBackground} className="flex justify-center  items-center gap-52" >
             <div>
-                <img className="h-60 relative bottom-[33px]" src="src/assets/FounderImages/Angad_Talwar.jpg" />
+                <img className="h-60 relative bottom-[33px]" src={angadTalwar} />
             </div>
             <div className="text-3xl font-extrabold relative bottom-[33px] text-white">Founders</div>
             <div>
-                <img className="h-60 relative bottom-[33px]" src="src/assets/FounderImages/Kanika_Talwar.jpg" />
+                <img className="h-60 relative bottom-[33px]" src={Kanika} />
             </div>
         </div>
         <div style={pinkBackground} className="flex justify-center gap-32 mb-[-50px]">
@@ -40,9 +46,9 @@ export default function Founders() {
         <div className="text-center font-bold text-white  text-lg ">Team Category Experience: 30+ years | Team Ecommerce / D2C Experience: 15+ years | Vertically Aligned Capabilities: From Factory to Customer</div>
         <div className="flex items-center mt-12 mb-10 justify-evenly">
             <div className="text-2xl font-bold w-40">Advisors & Investors</div>
-            <Bio name="Anupam Mittal" img="src/assets/FounderImages/Anupam_Mittal.jpg" professions={["Angel Investor", "Founder & CEO,", "Shaadi.com"]} />
-            <Bio name="Vineeta Singh" img="src/assets/FounderImages/Vineeta Singh.jpg" professions={["Angel Investor", "Cofounder & CEO,", "Sugar Cosmetics"]} />
-            <Bio name="Deepak Jain" professions={["Manufacturer", "for A+ beauty &", "skincare brands"]} img="src/assets/FounderImages/Deepak_Jain.jpg" />
+            <Bio name="Anupam Mittal" img={Anupam} professions={["Angel Investor", "Founder & CEO,", "Shaadi.com"]} />
+            <Bio name="Vineeta Singh" img={Vineeta} professions={["Angel Investor", "Cofounder & CEO,", "Sugar Cosmetics"]} />
+            <Bio name="Deepak Jain" professions={["Manufacturer", "for A+ beauty &", "skincare brands"]} img={Deepak} />
         </div>
         <div>
             <div style={pinkBackground} className="p-3 text-2xl font-bold text-white text-center">Experienced Manufacturing | R&D | Formulations | Operations | Marketing | Sales | D2C Growth</div>

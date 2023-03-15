@@ -1,3 +1,5 @@
+import roadmap1 from "../../assets/RoadmapImages/Roadmap1.png"
+import roadmap2 from "../../assets/RoadmapImages/Roadmap2.png"
 export default function Roadmap() {
     const pinkBackground = { backgroundColor: "#f64697" }
 
@@ -16,7 +18,7 @@ export default function Roadmap() {
                 </div>
             </div>
             <div className="col-start-2 col-end-3 row-start-1 row-end-2">
-                <img src="src/assets/RoadmapImages/Roadmap2.png" />
+                <img src={roadmap2} />
             </div>
             <div style={pinkBackground} className="flex  flex-col col-start-2 col-end-3 row-start-2 row-end-3 text-white text-xl gap-3 justify-center items-start px-32 py-0">
                 <div className="text-3xl">ROADMAP: PRODUCT</div>
@@ -27,7 +29,7 @@ export default function Roadmap() {
                     care segments in 2023</div>
             </div>
             <div className="col-start-1 col-end-2 row-start-2 row-end-3">
-                <img src="src/assets/RoadmapImages/Roadmap1.png" />
+                <img src={roadmap1} />
             </div>
         </section>
     )

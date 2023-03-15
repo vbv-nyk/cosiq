@@ -1,3 +1,4 @@
+import girlHoldingTv from "../../assets/ProcedureImages/girlHoldingTV.jpg"
 export default function Procedure() {
     const pinkBackground = { backgroundColor: "#f64697" }
     const pinkText = { color: "#f64697" }
@@ -5,7 +6,8 @@ export default function Procedure() {
         <div className="flex flex-col justify-cente h-screen">
             <div style={pinkBackground} className="font-extrabold leading-none text-[80px] text-start w-[500px] pb-10 h-max">
                 <div className="px-10 pt-20 text-white">How we are doin it</div>
-                <img src="src/assets/ProcedureImages/girlHoldingTV.jpg" className="w-[500px] mt-10 relative left-[110px]" />
+                <img src={girlHoldingTv}
+                    className="w-[500px] mt-10 relative left-[110px]" />
             </div>
         </div>
         <div className="p-36 pb-0 ml-12 flex flex-col gap-4">

@@ -1,3 +1,7 @@
+import bpc from "../../assets/MarketImages/bpc_worldwide.png"
+import india from "../../assets/MarketImages/indian_skincare.png"
+import skincare from "../../assets/MarketImages/skincare_worldwide.png"
+
 export default function Market() {
     const pinkBackground = { backgroundColor: "#f64697" }
     return (<main className="h-screen grid grid-cols-2 grid-rows-1">
@@ -18,9 +22,9 @@ export default function Market() {
         </section>
         <section style={pinkBackground} className="flex flex-col col-start-2 col-end-3">
             <div className="flex p-5 gap-2 justify-center">
-                <img src="src/assets/MarketImages/bpc_worldwide.png" />
-                <img src="src/assets/MarketImages/indian_skincare.png" />
-                <img src="src/assets/MarketImages/skincare_worldwide.png" />
+                <img src={bpc} />
+                <img src={india} />
+                <img src={skincare} />
             </div>
             <div className="flex flex-col gap-2">
                 <div className="text-3xl w-[500px] text-white py-5 mx-auto font-bold">Indian Skincare Industry (TAM) is
